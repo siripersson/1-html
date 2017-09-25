@@ -50,6 +50,12 @@ body {
     font-size:40px;
 }
 
+.container{
+    background-color:darkblue;
+    margin:10%;
+    padding:2cm;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -63,4 +69,14 @@ div{
 	margin:10%;
 	color:white;
     text-align:center;
+}
+
+footer{
+    margin:10%;
+    color:white;
+    text-align:center;
+}
+
+p{
+    font-size: 40px;
 }
