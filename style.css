@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+    background-image: url("bubbles.jpg"); 
+}
+
+.button{
+    color:white;
+    font-size:20px;
+    height:60px; 
+    width:150px;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    margin:auto;
+}
+
+.tjejer-kodar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+#main-header{
+	color:white;
+	font-size: 80px;
+	text-align: center;
+}
+
+.head-menu{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.head-menu-item{
+ 	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.head-menu-item:hover {
+    background-color: #777;
+}
+
+#second-header{
+    color:black;
+    font-size:40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+
+div{
+	margin:10%;
+	color:white;
+    text-align:center;
+}
