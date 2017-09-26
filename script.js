@@ -13,6 +13,13 @@
 //	console.log("Emails: ", emails[i].email)
 //}
 
+// Fetch elements
+const magic=document.getElementById("magic")
+magic.addEventListener('click',() => {
+	magic.className="green"
+	console.log(magic.className)
+})
+
 // Code for the video
 navigator.mediaDevices.getUserMedia({video:true},(stream) => {
 	video.src=window.URL.createObjectURL(stream)
